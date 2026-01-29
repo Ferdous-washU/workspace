@@ -1,6 +1,5 @@
-ARG VARIANT=3-bullseye
-FROM mcr.microsoft.com/vscode/devcontainers/python:${VARIANT}
-
+#ARG VARIANT=3-bullseye
+FROM mcr.microsoft.com/vscode/devcontainers/python:3.12-slim
 ENV PYTHONUNBUFFERED 1
 
 # [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
